@@ -24,3 +24,4 @@ KERNEL_OFFSET equ 0x1000     ; Address where kernel will be loaded
 SECTORS_TO_LOAD equ 1         ; Number of sectors to load
 times 510-($-$$) db 0         ; Fill the rest of the sector with 0s
 dw 0xAA55                     ; Boot signature
+

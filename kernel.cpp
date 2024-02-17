@@ -12,3 +12,4 @@ extern "C" void kernel_main() {
     // Infinite loop to prevent kernel from exiting
     while (1);
 }
+
